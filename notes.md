@@ -16,11 +16,11 @@ _procedural mark making, iteration, oscillation, animation._
 - How to make basic marks
   - Basic Shapes
   - color
-  - Drawing over time ( background alpha )
 - Animation 
   - moving objects with custom variables
   - moving objecs with frameCount
   - modulo
+  - Drawing over time ( background alpha )
 - Interation
   - translate, rotate, scale
   - push and pop

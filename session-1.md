@@ -238,7 +238,7 @@ multiline comment
 
 ### Classes
 Most modern browsers implement a new class syntax known as `es6 classes`, unfortunately
-IE is still lagging behind so we will be using the older function based syntax. This 
+IE is still lagging behind so we will be using the older function/prototype based syntax. This 
 might be a little unfamiliar for the processing veterans but its not so bad once you get
 the hang of it.
 
@@ -281,3 +281,19 @@ run once on initialization. Use this function to create your canvas and set init
 #### Draw
 This function is called once per frame. Any code you add here will run every frame 
 ( hopefully 60 times per second ). Use this function for all your animation.
+
+## Mark Making
+#### Shapes
+#### color
+## Animation
+#### Driving movement with variables
+#### module / framecount / map
+#### Background alpha
+## Iteration
+#### translate
+#### rotate
+#### scale
+#### push and pop
+## Oscillation
+#### sin / cos
+#### phase calculations
