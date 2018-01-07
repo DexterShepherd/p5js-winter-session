@@ -1,7 +1,7 @@
 let img, scaleFactor, walkers, numWalkers
 
 function preload() {
-  img = loadImage('mountain.jpg')
+  img = loadImage('../mountain.jpg')
 }
 
 function setup() {
