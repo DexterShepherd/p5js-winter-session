@@ -1,4 +1,4 @@
-let positions, connections, positionshaschanged, c1, c2, maxlife, maxlinelength
+let positions, connections, positionsHasChanged, c1, c2, maxLife, maxLineLength
 
 
 function setup() {
@@ -7,9 +7,9 @@ function setup() {
   c2 = color('#29d9c2')
   positions = []
   connections = []
-  maxlife = 500
-  maxlinelength = 30
-  nofill()
+  maxLife = 500
+  maxLineLength = 30
+  noFill()
   stroke(255)
   background(1, 162, 166)
 }
@@ -17,34 +17,34 @@ function setup() {
 function draw() {
   background(1, 162, 166, 5)
   translate(width/2, height/2)
-  positions = positions.filter((pos) => {
+  positions = positions.filter(function(pos) {
     if(pos.counter > 0) {
       return true
     }
-    positionshaschanged = true
+    positionsHasChanged = true
     return false
   })
 
 
   if (mouseispressed) {
     positions.push({ x: mousex - width / 2 , y: mousey - height / 2, counter: maxlife })
-    positionshaschanged = true
+    positionsHasChanged = true
   }
 
-  if(positionshaschanged) {
-    calculateconnections()
+  if(positionsHasChanged) {
+    calculateConnections()
   }
 
   for(let i = 0; i < positions.length; i += 1) {
     let pos = positions[i]
-    stroke(lerpcolor(c1, c2, pos.counter / maxlife))
+    stroke(lerpColor(c1, c2, pos.counter / maxlife))
     for(let j = 0; j < connections[i].length; j += 1) {
-      beginshape()
+      beginShape()
       vertex(pos.x, pos.y)
       if(connections[i][j]) {
         vertex(positions[connections[i][j].index].x, positions[connections[i][j].index].y)
       }
-      endshape()
+      endShape()
     }
 
     let n = noise(positions[i].x * 0.005, positions[i].y * 0.005) * 2 - 1
@@ -54,7 +54,7 @@ function draw() {
   }
 }
 
-function calculateconnections() {
+function calculateConnections() {
   for(let i = 0; i < positions.length; i += 1) {
     connections[i] = []
     for(let j = i + 1; j < positions.length; j += 1) {
@@ -65,5 +65,5 @@ function calculateconnections() {
     }
   }
 
-  positionshaschanged = false
+  positionsHasChanged = false
 }
