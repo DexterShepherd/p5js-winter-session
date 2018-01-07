@@ -17,9 +17,9 @@ T F _3:00PM - 4:50PM_
 ## Session 1 - 1/8/18 - Installation / Drawing in the Browser
 - [Dev Environment Setup](environment-setup.md)
 - [ Basics of Javascript and p5.js ](javascript-and-p5-basics.md)
-- p5 Docs
+- [ p5 Docs ](https://p5js.org/reference/)
 - Basic mark making
-  - Color
+  - Color - [code](session-1-examples/color/sketch.js) - [demo](dexterjshepherd.com/p5-winter-session/session-1-examples/color)
   - Shape
 - Animation
   - Time
