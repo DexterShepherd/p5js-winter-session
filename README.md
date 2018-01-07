@@ -60,12 +60,14 @@ __Homework__
 Create a new interactive sketch, or add mouse/keyboard interaction to one of your previous sketches.
 
 ## Session 4 - 1/16/18 - Pixels
-- loading files with preload
-- image color schemes with get()
+- loading files with preload - [code]() - [demo]() __TODO__
+- image color schemes with get() - [code]() - [demo]() __TODO__
 - pixel array
-  - writing pixels
+  - writing pixels - [code](session-4-examples/writing-pixels/sketch.js) - [demo](http://dexterjshepherd.com/p5js-winter-session/session-4-examples/writing-pixels) 
   - reading pixels
-- video
+    - 1 - [code](session-4-examples/reading-pixels-1/sketch.js) - [demo](http://dexterjshepherd.com/p5js-winter-session/session-4-examples/reading-pixels-1) 
+    - 2 - [code](session-4-examples/reading-pixels-2/sketch.js) - [demo](http://dexterjshepherd.com/p5js-winter-session/session-4-examples/reading-pixels-2) 
+- video - [code](session-4-examples/video/sketch.js) - [demo](http://dexterjshepherd.com/p5js-winter-session/session-4-examples/video) 
 
 __Homework__  
 Make a sketch using either the pixels array, or the get() and set() methods to interact with image, video, or canvas pixels
