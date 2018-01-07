@@ -26,7 +26,7 @@ function draw() {
   })
 
 
-  if (mouseispressed) {
+  if (mouseIsPressed) {
     positions.push({ x: mousex - width / 2 , y: mousey - height / 2, counter: maxlife })
     positionsHasChanged = true
   }
