@@ -19,11 +19,11 @@ T F _3:00PM - 4:50PM_
 - [ Basics of Javascript and p5.js ](javascript-and-p5-basics.md)
 - [ p5 Docs ](https://p5js.org/reference/)
 - Basic mark making
-  - Color - [code](session-1-examples/color/sketch.js) - [demo](http://dexterjshepherd.com/p5-winter-session/session-1-examples/color)
-  - Shape
+  - Color - [code](session-1-examples/color/sketch.js) - [demo](http://dexterjshepherd.com/p5js-winter-session/session-1-examples/color)
+  - Shape - [code](session-1-examples/shape/sketch.js) - [demo](http://dexterjshepherd.com/p5js-winter-session/session-1-examples/shape)
 - Animation
-  - Time
-  - framecount
+  - Time - [code](session-1-examples/time/sketch.js) - [demo](http://dexterjshepherd.com/p5js-winter-session/session-1-examples/time)
+  - framecount - [code](session-1-examples/framecount/sketch.js) - [demo](http://dexterjshepherd.com/p5js-winter-session/session-1-examples/framecount)
   - modulo (%)
 - Iteration
   - translate()
