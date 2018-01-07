@@ -2,7 +2,7 @@ let positions, connections, positionshaschanged, c1, c2, maxlife, maxlinelength
 
 
 function setup() {
-  createcanvas(500, 500)
+  createCanvas(500, 500)
   c1 = color('#ffffa6')
   c2 = color('#29d9c2')
   positions = []
