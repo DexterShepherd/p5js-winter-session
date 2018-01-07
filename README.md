@@ -67,7 +67,7 @@ Create a new interactive sketch, or add mouse/keyboard interaction to one of you
   - reading pixels
     - 1 - [code](session-4-examples/reading-pixels-1/sketch.js) - [demo](http://dexterjshepherd.com/p5js-winter-session/session-4-examples/reading-pixels-1) 
     - 2 - [code](session-4-examples/reading-pixels-2/sketch.js) - [demo](http://dexterjshepherd.com/p5js-winter-session/session-4-examples/reading-pixels-2) 
-- video - [code](session-4-examples/video/sketch.js) - [demo](http://dexterjshepherd.com/p5js-winter-session/session-4-examples/video) 
+- video - [code](session-4-examples/video/sketch.js) - [demo](http://dexterjshepherd.com/p5js-winter-session/session-4-examples/video) __Google Chrome will block webcam access on this sketch as the demo is not using https, please view in another browser__
 
 __Homework__  
 Make a sketch using either the pixels array, or the get() and set() methods to interact with image, video, or canvas pixels
