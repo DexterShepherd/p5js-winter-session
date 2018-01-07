@@ -27,7 +27,7 @@ function draw() {
 
 
   if (mouseIsPressed) {
-    positions.push({ x: mousex - width / 2 , y: mousey - height / 2, counter: maxlife })
+    positions.push({ x: mouseX - width / 2 , y: mouseY - height / 2, counter: maxLife })
     positionsHasChanged = true
   }
 
@@ -37,7 +37,7 @@ function draw() {
 
   for(let i = 0; i < positions.length; i += 1) {
     let pos = positions[i]
-    stroke(lerpColor(c1, c2, pos.counter / maxlife))
+    stroke(lerpColor(c1, c2, pos.counter / maxLife))
     for(let j = 0; j < connections[i].length; j += 1) {
       beginShape()
       vertex(pos.x, pos.y)
@@ -59,7 +59,7 @@ function calculateConnections() {
     connections[i] = []
     for(let j = i + 1; j < positions.length; j += 1) {
       distance = dist(positions[i].x, positions[i].y, positions[j].x, positions[j].y)
-      if(distance < maxlinelength) {
+      if(distance < maxLineLength) {
         connections[i].push({ index: j, dist: distance})
       }
     }
