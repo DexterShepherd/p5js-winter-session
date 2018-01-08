@@ -18,6 +18,7 @@ let x = 10
 let y = 5.5
 let name = "Dexter"
 let myArray = [1, 2, 'some string', ['another', 'array', 5.2]] 
+let print10 = function() { console.log(10) }
 ```
 
 ### Comments
@@ -33,6 +34,50 @@ multiline comment
 */
 ```
 
+### Logging and Debugging
+We can write to the javascript console with the `console.log()` function, and
+insert a dynamic breakpoint with the `debugger` keyword.
+
+## Functions
+Functions in javascript can be declared with the `function` keyword.
+
+```
+function foo(bar) {
+  return bar 
+}
+```
+
+functions can also be assigned to variables like any other data type.
+
+```
+let bar = function(baz) {
+  return baz
+}
+
+let arrayOfFunctions = [
+  function() {
+    return 1
+  },
+  functions() {
+    return 2
+  }
+]
+```
+
+Lastly, functions are often passed as arguments to other functions. In this case,
+we can declare the function annonymously inline.
+
+```
+let x = [1, 2, 3, 4]
+
+x.forEach(function(ele) {
+  return ele * 2
+})
+
+// this will return 
+// 2, 4, 6, 8
+```
+
 ### Classes
 Most modern browsers implement a new class syntax known as `es6 classes`, unfortunately
 IE is still lagging behind so we will be using the older function/prototype based syntax. This 
@@ -46,7 +91,7 @@ let Particle = function(l) {
 
   // store instance variables with 'this'
   // these variables are unique to 'this' instance of the class
-  this.location = l
+  this.location = l.get()
   this.velocity = P5.vector.random2D()
 
   // declare an update function and attach it to the class with the 'this' keyword

@@ -59,3 +59,71 @@ errors down the line.
 
 When you navigate to a url, your browser will load the html file associated with that address,
 in our case, that file _index.html_. The _index.html_ file is then responsible for loading any other assets or code that it needs to display properly. Our _index.html_ page will load _p5.min.js_ from our _libraries_ folder, and then our _sketch.js_ file. Once loaded, _sketch.js_ creates a`canvas` element on the page and starts running our p5.js code.
+
+
+## Running code
+##### From the index.html file
+
+The simplest way to view our sketch in the browser is to right click the
+_index.html_ files and select "open in _chrome/firefox/safari_". This will point
+the browser directly to the _index.html_ and show us the resulting web page.
+
+Running code this way is fine for now, but we will encounter some problems later 
+on when trying to load images and videos into our sketches.
+
+##### From a local server
+
+As we work more with p5 we will likely need something a little more
+sophisticated than just pointing the browser direcly to the file. For this, we
+will use a _local web server_. There are about a million ways to do this so if you
+have a preferred web server already feel free to use that. For the rest of use I
+am recomending a NodeJS package called `http-server`. 
+
+- To set up `http-server` we must first install 
+ [_node.js_](https://nodejs.org/en/download/) - a server side javascript runtime.
+(Just choose the LTS installer for your system, no need for anything fancy).
+You can check if node has been successfully installed by opening _Terminal_ on 
+mac, or _Command Prompt_ on windows, typing the `node` command, and pressing 
+enter. If everything is setup correctly you should see a new line with the `>`
+symbol. Try typing some javascript on like `10 + 10` and pressing enter.
+Hopefully `20` shows up on the next line. If it did, your good to go, type `.exit` 
+and press enter to leave the console, if you see any errors, or can't access
+the node console at all, try redownloading and reinstalling node from the nodejs
+website. If you are having lots of problems, email me. We will get it figured out.
+- Once node is installed, we can also use the javascript 
+package manager _NPM_ to install node js packages. Run the command 
+`sudo npm install -g http-server` on a mac, or `npm install -g http-server` on
+windows to install our local server package. On mac you may have to put in your 
+password here. You won't see anything show up in the terminal, but your password
+is being typed. 
+- Once npm has finished installing our _http-server_ package, navigate to your
+p5js template directory, run the command `http-server`, then point your browser
+to the url `localhost:8080`. If all went well, you should see that same red 
+rectangle we saw when opening the _index.html_ file directly.
+
+___Pro-mode___
+
+If your feeling good with this stuff, try installing a more feature rich server 
+like _browser-sync_. Same basic setup, `npm install -g browser-sync` to install
+the package, then `browser-sync start --server --files "*"` to run the server.
+Now you have a similar server to the _http-server_ method, but everytime you save
+your files, the browser will automatically refresh for you.
+
+___A note on the console___
+
+As you've noticed, we will be spending a small amount of time in the console 
+during this course. Don't be intimidated, you really only need to know 3 commands.
+- `ls` : List all the files in the current directory.
+- `cd` : Change directory
+- `http-server` or `browser-sync start --server --files "*"` : runs our dev server
+- press the tab key to autocomplete a file or directory name
+- press the up key to cycle through previous commands so you don't have to type the
+same thing over and over again.
+
+When you open the console you will probably be placed in your home directory. Type `ls`
+to get your bearings. I see Desktop, Documents, Downloads, and a bunch of other folders
+I would usually navigate to using the Finder app. Type `cd Desktop` and press 
+enter to change directories to the Desktop directory. `ls` again shows me my 
+_sketchbook_ folder we created, and some other files on my desktop. 
+`cd sketchbook/templates` moves me into the templates folder inside the sketchbook folder.
+from here, I can run `http-server` to start my local server. 
