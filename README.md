@@ -28,9 +28,9 @@ T F _3:00PM - 4:50PM_
   - rotate() - [code](session-1-examples/rotate/sketch.js) - [demo](http://dexterjshepherd.com/p5js-winter-session/session-1-examples/rotate)
   - translate() - [code](session-1-examples/translate/sketch.js) - [demo](http://dexterjshepherd.com/p5js-winter-session/session-1-examples/translate) 
   - push() and pop() - [code](session-1-examples/push-and-pop/sketch.js) - [demo](http://dexterjshepherd.com/p5js-winter-session/session-1-examples/push-and-pop) 
-- Oscillation
-  - sin() and cos() - [code](session-1-examples/sin-and-cos/sketch.js) - [demo](http://dexterjshepherd.com/p5js-winter-session/session-1-examples/sin-and-cos)
-  - angle and phase - [code](session-1-examples/angle-and-phase/sketch.js) - [demo](http://dexterjshepherd.com/p5js-winter-session/session-1-examples/angle-and-phase)
+- Oscillation / sin() and cos() 
+  - 1 - [code](session-1-examples/sin-and-cos-1/sketch.js) - [demo](http://dexterjshepherd.com/p5js-winter-session/session-1-examples/sin-and-cos-1)
+  - 2 [code](session-1-examples/sin-and-cos-2/sketch.js) - [demo](http://dexterjshepherd.com/p5js-winter-session/session-1-examples/sin-and-cos-2)
 
 __Homework__  
 Write your first sketch in p5! Use as many of the concepts we discussed in class as you like to make something visually interesting in p5.
