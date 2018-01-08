@@ -26,10 +26,10 @@ T F _3:00PM - 4:50PM_
   - framecount - [code](session-1-examples/framecount/sketch.js) - [demo](http://dexterjshepherd.com/p5js-winter-session/session-1-examples/framecount)
 - Iteration
   - rotate() - [code](session-1-examples/rotate/sketch.js) - [demo](http://dexterjshepherd.com/p5js-winter-session/session-1-examples/rotate)
-  - translate() - [code](session-1-examples/translate/sketch.js) - [demo](http://dexterjshepherd.com/p5js-winter-session/session-1-examples/translate) __TODO__
-  - push() and pop() - [code](session-1-examples/push-and-pop/sketch.js) - [demo](http://dexterjshepherd.com/p5js-winter-session/session-1-examples/push-and-pop) __TODO__
+  - translate() - [code](session-1-examples/translate/sketch.js) - [demo](http://dexterjshepherd.com/p5js-winter-session/session-1-examples/translate) 
+  - push() and pop() - [code](session-1-examples/push-and-pop/sketch.js) - [demo](http://dexterjshepherd.com/p5js-winter-session/session-1-examples/push-and-pop) 
 - Oscillation
-  - sin() and cos() - [code](session-1-examples/sin-and-cos/sketch.js) - [demo](http://dexterjshepherd.com/p5js-winter-session/session-1-examples/sin-and-cos) __TODO__
+  - sin() and cos() - [code](session-1-examples/sin-and-cos/sketch.js) - [demo](http://dexterjshepherd.com/p5js-winter-session/session-1-examples/sin-and-cos)
   - angle and phase - [code](session-1-examples/angle-and-phase/sketch.js) - [demo](http://dexterjshepherd.com/p5js-winter-session/session-1-examples/angle-and-phase)
 
 __Homework__  

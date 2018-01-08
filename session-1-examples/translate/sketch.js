@@ -13,6 +13,6 @@ function draw() {
   translate(0, height / 2)
   for(let i = 0; i < 50; i += 1) {
     ellipse(0, 0, sin(i + frameCount * 0.01) * 20, sin(i + frameCount * 0.01) * 20)
-    translate(20, sin(i + (frameCount * 0.01 % 10)) * 10) 
+    translate(20, sin(i + frameCount * 0.01) * 10) 
   }
 }
