@@ -5,6 +5,7 @@ Prerequisites: Complete ICOM-201 Introduction to Programming I ( or equivilent e
 Term: Winter Session 2018  
 1/8/18 - 1/19/18  
 Machine Lab _( Main building - B214a )_
+Contact: dextershepherd@calarts.edu  
 
 
 Week 1  
@@ -15,6 +16,8 @@ T F _3:00PM - 4:50PM_
 # Schedule
 
 ## Session 1 - 1/8/18 - Installation / Drawing in the Browser
+- [__Lecture Notes__](session-1-sketch/notes.md)
+
 - [Dev Environment Setup](environment-setup.md)
 - [ Basics of Javascript and p5.js ](javascript-and-p5-basics.md)
 - [ p5 Docs ](https://p5js.org/reference/)
@@ -31,6 +34,9 @@ T F _3:00PM - 4:50PM_
 - Oscillation / sin() and cos() 
   - 1 - [code](session-1-examples/sin-and-cos-1/sketch.js) - [demo](http://dexterjshepherd.com/p5js-winter-session/session-1-examples/sin-and-cos-1)
   - 2 [code](session-1-examples/sin-and-cos-2/sketch.js) - [demo](http://dexterjshepherd.com/p5js-winter-session/session-1-examples/sin-and-cos-2)
+
+#### Sketch from lecture
+[code](session-1-sketch/sketch.js) [demo](http://dexterjshepherd.com/p5js-winter-session/session-1-sketch)
 
 __Homework__  
 Write your first sketch in p5! Use as many of the concepts we discussed in class as you like to make something visually interesting in p5.
