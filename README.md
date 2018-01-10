@@ -43,18 +43,19 @@ Write your first sketch in p5! Use as many of the concepts we discussed in class
 
 ## Session 2 - 1/10/18 - Drawing with Systems
 - Walkers and Agents
-  - random walk - [code]() - [demo]() __TODO__
-  - perlin walk - [code]() - [demo]() __TODO__
-  - spatial perlin walk - [code]() - [demo]() __TODO__
+  - random walk - [code](session-2-examples/random-walker) - [demo](http://dexterjshepherd.com/p5js-winter-session/session-2-examples/random-walker)
+  - perlin walk - [code](session-2-examples/perlin-walker) - [demo](http://dexterjshepherd.com/p5js-winter-session/session-2-examples/perlin-walker)
+  - Noisey walker shapes - [code](session-2-examples/walker-shapes) - [demo](http://dexterjshepherd.com/p5js-winter-session/session-2-examples/walker-shapes)
 - Cellular Automata
-  - Wolfram CA - [code]() - [demo]() __TODO__
-  - Game of Life - [code]() - [demo]() __TODO__
-    - Distortions
-- Initial State Management - [code]() - [demo]() __TODO__
-- More interesting rendering ideas - [code]() - [demo]() __TODO__
+  - Game of Life - [code](session-2-examples/basic-game-of-life) - [demo](http://dexterjshepherd.com/p5js-winter-session/session-2-examples/basic-game-of-life)
+    - Distortions 
+      - 1 - [code](session-2-examples/game-of-life-distortions-1) - [demo](http://dexterjshepherd.com/p5js-winter-session/session-2-examples/game-of-life-distortions-1)
+      - 2 - [code](session-2-examples/game-of-life-distortions-2) - [demo](http://dexterjshepherd.com/p5js-winter-session/session-2-examples/game-of-life-distortions-2)
+- State Management - [code](session-2-examples/game-of-life-state-management) - [demo](http://dexterjshepherd.com/p5js-winter-session/session-2-examples/game-of-life-state-management)
+- More interesting rendering ideas - [code](session-2-examples/game-of-life-renderer) - [demo](http://dexterjshepherd.com/p5js-winter-session/session-2-examples/game-of-life-renderer)
 
 __Homework__  
-Implement some drawing system discussed in class, or another of your choice. Try to push past just rendering the state of your system directly, the world doesn't need any more raw game of life simulations.
+Implement some drawing system discussed in class, or another of your choice. If you want a challenge, try to push past just rendering the state of your system directly, the world doesn't need any more raw game of life simulations.
 
 ## Session 3 - 1/12/18 - Interaction
 - Mouse
