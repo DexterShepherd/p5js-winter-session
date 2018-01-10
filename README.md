@@ -52,7 +52,7 @@ Write your first sketch in p5! Use as many of the concepts we discussed in class
       - 1 - [code](session-2-examples/game-of-life-distortions-1/sketch.js) - [demo](http://dexterjshepherd.com/p5js-winter-session/session-2-examples/game-of-life-distortions-1)
       - 2 - [code](session-2-examples/game-of-life-distortions-2/sketch.js) - [demo](http://dexterjshepherd.com/p5js-winter-session/session-2-examples/game-of-life-distortions-2)
 - State Management - [code](session-2-examples/game-of-life-state-management/sketch.js) - [demo](http://dexterjshepherd.com/p5js-winter-session/session-2-examples/game-of-life-state-management)
-- More interesting rendering ideas - [code](session-2-examples/game-of-life-renderer/sketch.js) - [demo](http://dexterjshepherd.com/p5js-winter-session/session-2-examples/game-of-life-renderer)
+- More interesting rendering ideas - [code](session-2-examples/game-of-life-rendering/sketch.js) - [demo](http://dexterjshepherd.com/p5js-winter-session/session-2-examples/game-of-life-rendering)
 
 __Homework__  
 Implement some drawing system discussed in class, or another of your choice. If you want a challenge, try to push past just rendering the state of your system directly, the world doesn't need any more raw game of life simulations.
