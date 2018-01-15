@@ -54,19 +54,23 @@ Write your first sketch in p5! Use as many of the concepts we discussed in class
 - State Management - [code](session-2-examples/game-of-life-state-management/sketch.js) - [demo](http://dexterjshepherd.com/p5js-winter-session/session-2-examples/game-of-life-state-management)
 - More interesting rendering ideas - [code](session-2-examples/game-of-life-rendering/sketch.js) - [demo](http://dexterjshepherd.com/p5js-winter-session/session-2-examples/game-of-life-rendering)
 
+#### Sketch from lecture
+[code](session-2-sketch/sketch.js) [demo](http://dexterjshepherd.com/p5js-winter-session/session-2-sketch)
+
 __Homework__  
 Implement some drawing system discussed in class, or another of your choice. If you want a challenge, try to push past just rendering the state of your system directly, the world doesn't need any more raw game of life simulations.
 
-## Session 3 - 1/12/18 - Interaction
-- Mouse
-  - position - [code](session-3-examples/mouse-position/sketch.js) - [demo](http://dexterjshepherd.com/p5js-winter-session/session-3-examples/mouse-position) 
-  - pressed - [code](session-3-examples/mouse-pressed/sketch.js) - [demo](http://dexterjshepherd.com/p5js-winter-session/session-3-examples/mouse-pressed) 
-- keyboard - [code](session-3-examples/keyboard/sketch.js) - [demo](http://dexterjshepherd.com/p5js-winter-session/session-3-examples/keyboard) 
+## Session 3 - 1/12/18 - Sound and Pixels
+- Sound
+  - FFT - [code](session-4-examples/sound-load/sketch.js) - [demo](http://dexterjshepherd.com/p5js-winter-session/session-4-examples/sound-load)
+  - Oscillator - [code](session-4-examples/sound-loop/sketch.js) - [demo](http://dexterjshepherd.com/p5js-winter-session/session-4-examples/sound-loop)
 
-__Homework__  
-Create a new interactive sketch, or add mouse/keyboard interaction to one of your previous sketches.
+#### Sketch from lecture
+[code](session-4-sketch/sketch.js) [demo](http://dexterjshepherd.com/p5js-winter-session/session-4-sketch)
 
-## Session 4 - 1/16/18 - Pixels
+
+
+__not covered in lecture__
 - loading files with preload - [code]() - [demo]() __TODO__
 - image color schemes with get() - [code]() - [demo]() __TODO__
 - pixel array
@@ -78,6 +82,15 @@ Create a new interactive sketch, or add mouse/keyboard interaction to one of you
 
 __Homework__  
 Make a sketch using either the pixels array, or the get() and set() methods to interact with image, video, or canvas pixels
+
+## Session 4 - 1/16/18 - interaction
+- Mouse
+  - position - [code](session-3-examples/mouse-position/sketch.js) - [demo](http://dexterjshepherd.com/p5js-winter-session/session-3-examples/mouse-position) 
+  - pressed - [code](session-3-examples/mouse-pressed/sketch.js) - [demo](http://dexterjshepherd.com/p5js-winter-session/session-3-examples/mouse-pressed) 
+- keyboard - [code](session-3-examples/keyboard/sketch.js) - [demo](http://dexterjshepherd.com/p5js-winter-session/session-3-examples/keyboard) 
+
+__Homework__  
+Create a new interactive sketch, or add mouse/keyboard interaction to one of your previous sketches.
 
 ## Session 5 - 1/19/18
 ### Option A - Particles
