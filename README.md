@@ -89,6 +89,10 @@ Make a sketch using either the pixels array, or the get() and set() methods to i
   - pressed - [code](session-3-examples/mouse-pressed/sketch.js) - [demo](http://dexterjshepherd.com/p5js-winter-session/session-3-examples/mouse-pressed) 
 - keyboard - [code](session-3-examples/keyboard/sketch.js) - [demo](http://dexterjshepherd.com/p5js-winter-session/session-3-examples/keyboard) 
 
+
+#### Sketch from lecture
+[code](session-3-sketch/sketch.js) [demo](http://dexterjshepherd.com/p5js-winter-session/session-3-sketch)
+
 __Homework__  
 Create a new interactive sketch, or add mouse/keyboard interaction to one of your previous sketches.
 
